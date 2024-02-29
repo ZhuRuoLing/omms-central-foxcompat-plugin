@@ -1,0 +1,6 @@
+{
+  "id": "omms_foxcompat",
+  "version": "${version}",
+  "main": "icu.takeneko.omms.foxcompat.FoxCompatPlugin",
+  "author": "ZhuRuoLing"
+}
