@@ -26,7 +26,7 @@ class FoxCompatPlugin : PluginMain() {
         Runtime.getRuntime().addShutdownHook(thread(start = false, name = "FoxCompatStopThread") {
             Interconnection.stop()
         })
-        FoxCore.Init(Platform.None)
+        FoxCore.Init(Platform.Other)
         Interconnection.Init()
         InterconnectionChatSync.init()
         Interconnection.onServerStarted()
